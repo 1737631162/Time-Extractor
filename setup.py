@@ -23,7 +23,7 @@ setup(
     include_package_data=True,
     platforms="any",
     install_requires=['regex>=2017',
-                      'arrow>=0.10'],
+                      'arrow==0.14.0'],
     zip_safe=False,
     classifiers=[
             'Programming Language :: Python :: 2.6',
